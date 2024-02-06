@@ -1,0 +1,71 @@
+# Created by Ultra Librarian 8.3.344 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "TO-92-3_135AR_ONS")
+Pad (Name "1") (Location -2.12E-06, -3.005E-05) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rectangular) (Layer Top)
+PadShape (Size 52, 52) (Shape Rectangular) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 102.36219788, -3.005E-05) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Top)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "3") (Location 204.72439788, -3.005E-05) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Top)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 6) (Start -36, 96.22046995) (End -36, -88.77953005) (Layer Mechanical15) 
+Line (Width 6) (Start -36, -88.77953005) (End 240.72439575, -88.77953005) (Layer Mechanical15) 
+Line (Width 6) (Start 240.72439575, -88.77953005) (End 240.72439575, 96.22046995) (Layer Mechanical15) 
+Line (Width 6) (Start 240.72439575, 96.22046995) (End -36, 96.22046995) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-36, 96.22046995)
+Point (-36, -88.77953005)
+Point (240.72439575, -88.77953005)
+Point (240.72439575, 96.22046995)
+EndPolygon
+Line (Width 6) (Start 209.86219788, 38.76094312) (End 209.86219788, 91.22046995) (Layer TopOverlay) 
+Line (Width 6) (Start -5.13780212, -83.77953005) (End 209.86219788, -83.77953005) (Layer TopOverlay) 
+Line (Width 6) (Start 209.86219788, -83.77953005) (End 209.86219788, -38.76100322) (Layer TopOverlay) 
+Line (Width 6) (Start 209.86219788, 91.22046995) (End -5.13780212, 91.22046995) (Layer TopOverlay) 
+Line (Width 6) (Start -5.13780212, 91.22046995) (End -5.13780212, 39.09997033) (Layer TopOverlay) 
+Line (Width 6) (Start -5.13780212, -39.10003043) (End -5.13780212, -83.77953005) (Layer TopOverlay) 
+Arc (Width 6) (Radius 8) (Location -75.13780212, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -0.13780212, -78.77953005) (End 204.86219788, -78.77953005) (Layer Mechanical13) 
+Line (Width 1) (Start 204.86219788, -78.77953005) (End 204.86219788, 86.22046995) (Layer Mechanical13) 
+Line (Width 1) (Start 204.86219788, 86.22046995) (End -0.13780212, 86.22046995) (Layer Mechanical13) 
+Line (Width 1) (Start -0.13780212, 86.22046995) (End -0.13780212, -78.77953005) (Layer Mechanical13) 
+Arc (Width 0) (Radius 8) (Location 9.86219788, -68.77953005) (StartAngle 360) (EndAngle 720) (Layer Mechanical13) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "2N3904TAR") (PartCount 1) (DesPrefix "Q?")
+Pin (Location 300, 100) (Rotation 90) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "3") (Name Hidden "C") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "B") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, -100) (Rotation 270) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "E") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 150, -87) (End 150, 87) (Part 1)
+Line (Width 8) (Start 150, 37) (End 300, 87) (Part 1)
+Line (Width 8) (Start 150, -37) (End 300, -87) (Part 1)
+Line (Width 8) (Start 300, -100) (End 300, -87) (Part 1)
+Line (Width 8) (Start 300, 87) (End 300, 100) (Part 1)
+Line (Width 8) (Start 100, 0) (End 150, 0) (Part 1)
+Arc (Width 10) (Radius 150) (Location 212, 0) (StartAngle 0) (EndAngle 360) (Part 1)
+Polygon (PointCount 3) (Part 1)
+Point (212, -37)
+Point (200, -75)
+Point (262, -75)
+EndPolygon
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2024 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "onsemi") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "2N3904TAR") (Part 1)
+Parameter (Name "RefDes") (Location 400, 100) (Height 100) (Rotation 0) (Justification CenterLeft) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 400, -200) (Height 100) (Rotation 0) (Justification CenterLeft) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "2N3904TAR") (Part 1)
+Footprint (Name "TO-92-3_135AR_ONS")
+EndComponent
+EndComponents

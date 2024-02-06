@@ -1,0 +1,58 @@
+# Created by Ultra Librarian 8.3.344 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "AI-1223-TWT-5V-5-R_PUI")
+Pad (Name "1") (Location 0, 0) (HoleSize 34) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -27)
+PadShape (Size 54, 54) (Shape Rectangular) (Layer Top)
+PadShape (Size 54, 54) (Shape Rectangular) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 299.21258545, 0) (HoleSize 34) (Surface False) (Rotation 180) (ExpandMask 0) (ExpandPaste -27)
+PadShape (Size 54, 54) (Shape Rounded) (Layer Top)
+PadShape (Size 54, 54) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 1) (Start 48.31219482, 246) (End 250.90039062, 246) (Layer Mechanical15) 
+Line (Width 1) (Start 250.90039062, 246) (End 395.60629272, 101.2940979) (Layer Mechanical15) 
+Line (Width 1) (Start 395.60629272, 101.2940979) (End 395.60629272, -101.2940979) (Layer Mechanical15) 
+Line (Width 1) (Start 395.60629272, -101.2940979) (End 250.90039062, -246) (Layer Mechanical15) 
+Line (Width 1) (Start 250.90039062, -246) (End 48.31219482, -246) (Layer Mechanical15) 
+Line (Width 1) (Start 48.31219482, -246) (End -96.39370728, -101.2940979) (Layer Mechanical15) 
+Line (Width 1) (Start -96.39370728, -101.2940979) (End -96.39370728, 101.2940979) (Layer Mechanical15) 
+Line (Width 1) (Start -96.39370728, 101.2940979) (End 48.31219482, 246) (Layer Mechanical15) 
+Polygon (PointCount 8) (Layer Mechanical15) 
+Point (48.31219482, 246)
+Point (250.90039062, 246)
+Point (395.60629272, 101.2940979)
+Point (395.60629272, -101.2940979)
+Point (250.90039062, -246)
+Point (48.31219482, -246)
+Point (-96.39370728, -101.2940979)
+Point (-96.39370728, 101.2940979)
+EndPolygon
+Line (Width 6) (Start -146.39370728, 0) (End -96.39370728, 0) (Layer TopOverlay) 
+Line (Width 6) (Start -121.39370728, 25) (End -121.39370728, -25) (Layer TopOverlay) 
+Arc (Width 6) (Radius 241) (Location 149.60629272, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -146.39370728, 0) (End -96.39370728, 0) (Layer Mechanical13) 
+Line (Width 1) (Start -121.39370728, 25) (End -121.39370728, -25) (Layer Mechanical13) 
+Arc (Width 0) (Radius 236) (Location 149.60629272, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name AI-1223-TWT-5V-5-R_PUI.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "AI-1223-TWT-5V-5-R") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 1300, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Rectangle (Width 5) (Start 300, -200) (End 1300, 200) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2024 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "PUI Audio") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "AI-1223-TWT-5V-5-R") (Part 1)
+Parameter (Name "RefDes") (Location 800, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 800, 300) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "AI-1223-TWT-5V-5-R") (Part 1)
+Footprint (Name "AI-1223-TWT-5V-5-R_PUI")
+EndComponent
+EndComponents

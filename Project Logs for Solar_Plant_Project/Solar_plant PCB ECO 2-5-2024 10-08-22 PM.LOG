@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=VCC Pin=B1-P
+Removed Member From Class: ClassName=Sheet1 Member=B1
+Added Component: Designator=LS1(AI-1223-TWT-5V-5-R_PUI)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/AI-1223-TWT-5V-5-R/PUI%20Audio,%20Inc./view-part/2746967/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "PUI Audio,"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AI-1223-TWT-5V-5-R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2225 PUI Audio"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/AI-1223-TWT-5V-5-R/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AI-1223-TWT-5V-5-R/PUI%20Audio,%20Inc./view-part/2746967/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin LS1-P
+Added Pin To Net: NetName=NetLS1_N Pin=Q2-3
+Added Net: Name=NetLS1_N
+Added Member To Class: ClassName=Sheet1 Member=Component LS1 AI-1223-TWT-5V-5-R_1
+Added Member To Class: ClassName=Sheet1 Member=Component R1 RNF14FTD100R
